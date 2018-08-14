@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         // we will pass the tab1 id to our setcontent method
 
         spec.setContent(R.id.tab1);
-        spec.setIndicator("Tab One");
+        spec.setIndicator("T");
         host.addTab(spec);
 
         //Tab 2
@@ -38,6 +38,73 @@ public class MainActivity extends AppCompatActivity {
         spec = host.newTabSpec("Tab Three");
         spec.setContent(R.id.tab3);
         spec.setIndicator("Tab Three");
+        host.addTab(spec);
+
+        //Tab 4
+        spec = host.newTabSpec("Tab Four");
+        spec.setContent(R.id.tab4);
+        spec.setIndicator("Tab Four");
+        host.addTab(spec);
+
+        //Tab 5
+        spec = host.newTabSpec("Tab Five");
+        spec.setContent(R.id.tab5);
+        spec.setIndicator("Tab Five55555555555555555555555555");
+        host.addTab(spec);
+
+        //Tab 6
+        spec = host.newTabSpec("Tab Six");
+        spec.setContent(R.id.tab6);
+        spec.setIndicator("Tab Six");
+        host.addTab(spec);
+
+        //Tab 5
+        spec = host.newTabSpec("Tab Seven");
+        spec.setContent(R.id.tab7);
+        spec.setIndicator("Tab Seven");
+        host.addTab(spec);
+
+        //Tab 6
+        spec = host.newTabSpec("Tab Eight");
+        spec.setContent(R.id.tab8);
+        spec.setIndicator("Tab Eight");
+        host.addTab(spec);
+
+        //Tab 5
+        spec = host.newTabSpec("Tab Nine");
+        spec.setContent(R.id.tab9);
+        spec.setIndicator("Tab Eight");
+        host.addTab(spec);
+
+
+        //Tab 5
+        spec = host.newTabSpec("Tab Ten");
+        spec.setContent(R.id.tab10);
+        spec.setIndicator("Tab Ten");
+        host.addTab(spec);
+
+        //Tab 5
+        spec = host.newTabSpec("Tab Eleven");
+        spec.setContent(R.id.tab11);
+        spec.setIndicator("Tab Eleven");
+        host.addTab(spec);
+
+        //Tab 6
+        spec = host.newTabSpec("Tab Twelve");
+        spec.setContent(R.id.tab12);
+        spec.setIndicator("Tab Twelve");
+        host.addTab(spec);
+
+        //Tab 6
+        spec = host.newTabSpec("Tab Thirteen");
+        spec.setContent(R.id.tab13);
+        spec.setIndicator("Tab Thirteen");
+        host.addTab(spec);
+
+        //Tab 6
+        spec = host.newTabSpec("Tab Fourteen");
+        spec.setContent(R.id.tab14);
+        spec.setIndicator("Tab Fourteen");
         host.addTab(spec);
     }
 }
